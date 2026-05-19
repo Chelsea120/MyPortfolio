@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelsea's Portfilo</title>
+  </head>
+
+  <body>
+    <div id="particles-js"></div>
+      <main>
+     <div class="menu">
+      <div> <a href="/index.html"> Home </a> </div>
+      <div> <a href="/portofoilo.html"> Portfoilo </a> </div>
+      <div> <a href="/about.html"> About </a> </div>
+      <div> <a href="/contact.html"> Contact </a> </div>
+     </div>
+
+  <div class="contact-section">
+    
+    <div class="contact-left">
+      <div class="contact-wrapper">
+      <h2> Get In Touch</h2>
+      <p> Feel free to get in touch. We'd love to hear from you. </p>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="tel" id="phone" placeholder="Your Phone Number">
+
+        <select id="topic" required>
+          <option value="">Choose a topic</option>
+          <option value="graphic">Graphic Design</option>
+          <option value="Photo">Photography</option>
+          <option value="web">Web Design</option>
+        </select>
+        
+        <textarea id="messageInput" placeholder="Your Message" rows="5" required></textarea>
+
+        <label>
+          <input type="radio" name="contactMethod" value="email" required>
+          Email
+        </label>
+
+        <label>
+          <input type="radio" name="contactMethod" value="Phone" required>
+          Phone
+        </label>
+
+        <button type="submit">Submit</button>
+
+
+      </form>
+      <p id="message"></p>
+    </div>
+  </div>
+    
+  </main>
+  <script src="/JS/particles.js"></script>
+  
+     
+     <script>
+     particlesJS.load ('particles-js', 'particles.json');
+     </script>
+  <script src="/JS/Scripts.js"></script>
+  <footer>
+    <p>&copy; 2026 Chelsea Lampard. All rights reserved.</p>
+    <p>Auckland, New Zealand</p>
+  </footer>
+  </body>
+</html>
